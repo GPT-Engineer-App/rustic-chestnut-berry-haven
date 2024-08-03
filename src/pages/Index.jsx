@@ -3,7 +3,7 @@ import { Leaf, Cherry, Nut } from "lucide-react";
 const Index = () => {
   return (
     <div className="min-h-screen bg-amber-50 text-brown-800 font-serif">
-      <header className="bg-brown-700 text-amber-100 py-4">
+      <header className="bg-green-700 text-white py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl font-bold">Rustic Roots Farm</h1>
           <p className="text-lg">Family-grown chestnuts and berries</p>
