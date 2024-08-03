@@ -1,4 +1,6 @@
-import { Leaf, Cherry, Nut } from "lucide-react";
+import { Leaf, Cherry, Nut, MapPin, Mail } from "lucide-react";
+import Map from "../components/Map";
+import ContactForm from "../components/ContactForm";
 
 const Index = () => {
   return (
@@ -43,12 +45,21 @@ const Index = () => {
           <img src="/placeholder.svg" alt="Fresh chestnuts" className="mx-auto object-cover w-full h-64 rounded-lg shadow-md" />
         </section>
 
-        <section>
-          <h2 className="text-2xl font-bold mb-4">Visit Us</h2>
-          <p className="text-lg">
-            Come experience the rustic charm of our farm. Open for visits and pick-your-own adventures 
-            during harvest seasons. Check our social media for current hours and availability.
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-4 flex items-center">
+            <MapPin className="mr-2" /> Find Us
+          </h2>
+          <Map />
+          <p className="text-lg mt-4">
+            123 Farm Road, Countryside, State 12345
           </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold mb-4 flex items-center">
+            <Mail className="mr-2" /> Contact Us
+          </h2>
+          <ContactForm />
         </section>
       </main>
 
