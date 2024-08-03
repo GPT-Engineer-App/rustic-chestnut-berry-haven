@@ -1,4 +1,4 @@
-import { Leaf, Cherry, Chestnut } from "lucide-react";
+import { Leaf, Cherry, Nut } from "lucide-react";
 
 const Index = () => {
   return (
@@ -34,7 +34,7 @@ const Index = () => {
 
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4 flex items-center">
-            <Chestnut className="mr-2" /> Our Chestnuts
+            <Nut className="mr-2" /> Our Chestnuts
           </h2>
           <p className="text-lg mb-4">
             Experience the rich, nutty flavor of our farm-fresh chestnuts. Perfect for roasting, baking, or as a hearty 
